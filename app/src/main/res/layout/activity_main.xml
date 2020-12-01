@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     X - "
+            android:textSize="30sp"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:background="#FF9800"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     0 - "
+            android:textSize="30sp"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:background="#FF9800"/>
+
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="55pt"
+            android:layout_height="60pt"
+            android:layout_margin="3dp"
+            android:textColor="@color/white"
+            android:textSize="70sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="55pt"
+            android:layout_height="60pt"
+            android:layout_margin="3dp"
+            android:textColor="@color/white"
+            android:textSize="70sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_height="60pt"
+            android:layout_width="55pt"
+            android:textColor="@color/white"
+            android:textSize="70sp"
+            android:layout_margin="3dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_height="60pt"
+            android:layout_width="55pt"
+            android:textSize="70sp"
+            android:textColor="@color/white"
+            android:layout_margin="3dp"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_height="60pt"
+            android:layout_width="55pt"
+            android:textSize="70sp"
+            android:textColor="@color/white"
+            android:layout_margin="3dp"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_height="60pt"
+            android:layout_width="55pt"
+            android:textSize="70sp"
+            android:textColor="@color/white"
+            android:layout_margin="3dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_height="60pt"
+            android:layout_width="55pt"
+            android:textSize="70sp"
+            android:textColor="@color/white"
+            android:layout_margin="3dp"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_height="60pt"
+            android:layout_width="55pt"
+            android:textSize="70sp"
+            android:textColor="@color/white"
+            android:layout_margin="3dp"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_height="60pt"
+            android:layout_width="55pt"
+            android:textSize="70sp"
+            android:textColor="@color/white"
+            android:layout_margin="3dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/restartbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            android:text="Reset"/>
+
+    </TableRow>
+
+
+</TableLayout>
